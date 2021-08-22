@@ -1,0 +1,53 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["import-helpers"],
+	"extends": [
+		"@techmmunity/eslint-config/common",
+		"@techmmunity/eslint-config/jest",
+		"@techmmunity/eslint-config/react",
+		"@techmmunity/eslint-config/nextjs",
+		"@techmmunity/eslint-config/typescript",
+		"@techmmunity/eslint-config/ts-react",
+		"@techmmunity/eslint-config/ts-nextjs"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"project": "tsconfig.json",
+		"sourceType": "module"
+	},
+	"rules": {
+		"import-helpers/order-imports": [
+			"warn",
+			{
+				"newlinesBetween": "always",
+				"groups": [
+					"/next/",
+					"/react/",
+					"/styled-components/",
+					"module",
+					"/pages/",
+					"/web/components/",
+					"/components/",
+					"/hooks/",
+					"/contexts/",
+					"/assets/",
+					"/configs/",
+					"/helpers/",
+					"/layouts/",
+					"/utils/",
+					"/types/",
+					"/styles/",
+					["parent", "sibling", "index"]
+				],
+				"alphabetize": {
+					"order": "asc",
+					"ignoreCase": true
+				}
+			}
+		]
+	}
+}

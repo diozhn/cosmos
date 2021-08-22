@@ -1,0 +1,145 @@
+{
+	// Define Tab Size = 2 Spaces (Half of the Default Size)
+	"editor.tabSize": 2,
+
+	// Disable Tab To Space Conversion
+	"editor.insertSpaces": false,
+
+	// Make Prettier The Default Code Formatter
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// Config Default End Of Line Formatting
+	"files.eol": "\n",
+
+	// Enable Format On Save
+	"editor.formatOnSave": true,
+
+	// Make ESLint fix all the things that he can on save (like prettier formating)
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+
+	// Color of Comments
+	"editor.tokenColorCustomizations": {
+		"comments": "#00A0EB"
+	},
+
+	// Make VSCode understand this files as files of this languages
+	"files.associations": {
+		".env.*": "env",
+		".lintstagedrc": "json"
+	},
+
+	// ================ Languages General Config ====================
+
+	// TypeScript
+	"typescript.suggest.autoImports": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[typescript]": {
+		"editor.defaultFormatter": null
+	},
+
+	// TypeScript With React
+	"[typescriptreact]": {
+		"editor.defaultFormatter": null
+	},
+
+	// JavaScript
+	"javascript.suggest.autoImports": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[javascript]": {
+		"editor.defaultFormatter": null
+	},
+
+	// JavaScript With React
+	"[javascriptreact]": {
+		"editor.defaultFormatter": null
+	},
+
+	// =========== Plugins & Extensions General Config ===============
+
+	// GitLens
+	"gitlens.codeLens.authors.enabled": true,
+	"gitlens.codeLens.enabled": false,
+	"gitlens.codeLens.recentChange.enabled": false,
+
+	// Eslint
+	"eslint.packageManager": "yarn",
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+
+	// Material Icon Theme
+	"material-icon-theme.folders.associations": {
+		"types": "typescript",
+		"enums": "typescript",
+		"interfaces": "typescript"
+	},
+
+	// TODO Tree
+	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "[ ]"],
+	"todo-tree.tree.showScanModeButton": false,
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+
+	// colorize
+	"colorize.enable_search_variables": true,
+	"colorize.colorized_variables": ["CSS", "SASS"],
+	"colorize.languages": [
+		"css",
+		"sass",
+		"scss",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"xml"
+	],
+	"colorize.exclude": [
+		"**/.git",
+		"**/.svn",
+		"**/.hg",
+		"**/CVS",
+		"**/.DS_Store",
+		"**/.git",
+		"**/node_modules",
+		"**/bower_components",
+		"**/tmp",
+		"**/dist",
+		"**/tests"
+	],
+	"colorize.include": [
+		"**/*.css",
+		"**/*.scss",
+		"**/*.sass",
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.ts",
+		"**/*.tsx"
+	],
+
+	// Code Spell Checker
+	"cSpell.words": [
+		"Colect",
+		"Enviroment",
+		"Helvetica",
+		"Parens",
+		"Roboto",
+		"behance",
+		"builtins",
+		"camelcase",
+		"cannonical",
+		"coverallsapp",
+		"dribbble",
+		"linkedin",
+		"nextjs",
+		"paren",
+		"postbuild",
+		"sonarjs",
+		"techmmunity",
+		"testid",
+		"webfactory"
+	]
+}
