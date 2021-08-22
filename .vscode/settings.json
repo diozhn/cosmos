@@ -36,7 +36,7 @@
 	"typescript.suggest.autoImports": true,
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"[typescript]": {
-		"editor.defaultFormatter": null
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 
 	// TypeScript With React
