@@ -26,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: var(--background);
     color: var(--secondary);
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
   }
 
@@ -71,20 +71,20 @@ export const GlobalStyle = createGlobalStyle`
 
 	:root {
 		--main: ${COLORS.main};
-		--black: ${COLORS.black};
+		--black: ${COLORS.darkThemeBackground};
 		--white: ${COLORS.white};
-		--shadow: ${COLORS.black}50;
+		--shadow: ${COLORS.darkThemeBackground}50;
 		--page-max-width: 112.8rem;
 		--vertical-padding: 2rem;
 		--horizontal-padding: 2rem;
 	}
 
 	[data-theme='dark'] {
-		--primary: ${COLORS.black};
+		--primary: ${COLORS.darkThemeBackground};
 		--secondary: ${COLORS.white};
 		--background: ${COLORS.darkThemeBackground};
 		--scrollbar: var(--main);
-		--scrollbar-background: ${COLORS.black}50;
+		--scrollbar-background: ${COLORS.darkThemeBackground}50;
 	}
 
 	@media (max-width: 768px) {
