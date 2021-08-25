@@ -1,0 +1,58 @@
+{
+	"header": {
+		"title": "Espalhe conhecimento pelo mundo",
+		"paragraph": "Junte-se a cientistas, professores e entusiastas apaixonados pela complexidade do universo, compartilhe uma ideia, um projeto ou pensamento, mostre ao mundo o quão longe podemos ir através da educação!",
+		"button": "Começar"
+	},
+	"navigation": {
+		"buttonSignIn": "Entrar",
+		"buttonSignUp": "Registre-se",
+		"links": {
+			"home": "Início",
+			"about": "Sobre",
+			"contact": "Contato",
+			"donations": "Doações"
+		}
+	},
+	"discover": {
+		"title": "Descubra",
+		"subtitle": "Publicações da comunidade",
+		"paragraph": "Viaje entre conteúdos publicados pela comunidade, participe, comente, compartilhe, mostre sua ideia ao mundo e vamos construir juntos o futuro da ciência.",
+		"link": "Vamo nessa! ⟶"
+	},
+	"advantages": {
+		"approach": {
+			"title": "Conecte-se",
+			"paragraph": "Abrace uma comunidade que busca compartlhar educação e assim como você, fazer do mundo um lugar melhor"
+		},
+		"learn": {
+			"title": "Aprenda",
+			"paragraph": "Navegue pelo Cosmos e descruba conteúdos de qualidade produzidos pela comunidade!"
+		},
+		"share": {
+			"title": "Compartilhe",
+			"paragraph": "Contribuia com a divulgação científica compartilhando sua pesquisa, projeto ou até mesmo uma ideia que você teve dormindo!"
+		}
+	},
+	"crowdFounding": {
+		"title": "Crowd Founding",
+		"subtitle": "Doações feitas pela comunidade",
+		"paragraph": "A Cosmos possui um sistema de crowd founding onde você poderá ter seu projeto financiado pela comunidade através de doações em troca de prêmios!"
+	},
+	"closeUp": {
+		"title": "Chega ai!",
+		"paragraph": "Pega seu café e viaje em um mundo onde ciência e educação são tratadas com a importância que elas merecem!",
+		"link": "Vamo nessa! ⟶"
+	},
+	"footer": {
+		"links": {
+			"about": "Sobre",
+			"crowdFounding": "Crowd Founding",
+			"donations": "Doações",
+			"partners": "Parceiros",
+			"help": "Ajuda",
+			"privacyPolicy": "Política de Privacidade"
+		},
+		"copyright": "© 2021 Cosmos Network - Todos os direitos reservados"
+	}
+}

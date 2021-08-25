@@ -1,0 +1,58 @@
+{
+	"header": {
+		"title": "Spread knowledge around the world",
+		"paragraph": "Join scientists, teachers and enthusiasts passionate about the complexity of the universe, share an idea, a project or thought, show the world how far we can go through education!",
+		"button": "Start now"
+	},
+	"navigation": {
+		"buttonSignIn": "Sign In",
+		"buttonSignUp": "Sign Up",
+		"links": {
+			"home": "Home",
+			"about": "About",
+			"contact": "Contact",
+			"donations": "Donations"
+		}
+	},
+	"discover": {
+		"title": "Discover",
+		"subtitle": "Community Posts",
+		"paragraph": "Travel between content published by the community, participate, comment, share, show your idea to the world and let's build the future of science together.",
+		"link": "Lets go! ⟶"
+	},
+	"advantages": {
+		"approach": {
+			"title": "Approach",
+			"paragraph": "Embrace a community that seeks to share education and, like you, make the world a better place"
+		},
+		"learn": {
+			"title": "Learn",
+			"paragraph": "Browse Cosmos and discover quality content produced by the community!"
+		},
+		"share": {
+			"title": "Share",
+			"paragraph": "Contribute to scientific dissemination by sharing your research, project or even an idea you had sleeping!"
+		}
+	},
+	"crowdFounding": {
+		"title": "Crowd Founding",
+		"subtitle": "Donations made by the community",
+		"paragraph": "Cosmos has a crowd founding system where you can have your project financed by the community through donations in exchange for prizes!"
+	},
+	"closeUp": {
+		"title": "Close Up!",
+		"paragraph": "Grab your coffee and travel into a world where science and education are treated with the importance they deserve!",
+		"link": "Lets go! ⟶"
+	},
+	"footer": {
+		"links": {
+			"about": "About",
+			"crowdFounding": "Crowd Founding",
+			"donations": "Donations",
+			"partners": "Partners",
+			"help": "Help",
+			"privacyPolicy": "Privacy Policy"
+		},
+		"copyright": "© 2021 Cosmos Network - All rights reserved"
+	}
+}
