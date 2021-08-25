@@ -8,7 +8,7 @@ import { LayoutWrapper } from "web/layouts/wrapper";
 import { GlobalStyle } from "./styles";
 
 export const MyApp: FC<AppProps> = ({ Component, pageProps }) => (
-	<ThemeProvider defaultTheme="dark">
+	<ThemeProvider forcedTheme="light">
 		<Head />
 		<LayoutWrapper>
 			<Component {...pageProps} />
